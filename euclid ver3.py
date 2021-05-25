@@ -55,6 +55,7 @@ else:
     y = -y
 
 print('{0}x + {1}y = {2}\n'.format(a_o, b_o, gcd))
+
 if( swap_flag == 0):  #  a,bを入れ替えたかどうかの場合分け
     print('x0 = {0}, y0 = {1}'.format(x, y))
     print('x = {0} + {1}t, y = {2} - {3}t\n'.format(x, b, y, a))
